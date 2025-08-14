@@ -2,8 +2,6 @@
   <img src="https://media1.tenor.com/m/bEOPpa07_xQAAAAC/ok.gif" width="400">
 </p>
 
-
-
 # 💫 About Me:
 Hey, I’m Kuladeep Reddy 👋<br><br>I’m someone who enjoys exploring how ideas can be shaped into something real with code.<br>A mix of curiosity and persistence keeps me diving into new tech, learning how things work, and figuring out how to make them work better.<br><br>I’m currently pursuing B.Tech in Computer Science and Engineering at Amrita College, Coimbatore, and I spend a good chunk of my time experimenting, tinkering, and sometimes breaking things just to see how they can be fixed.<br><br>If you’re here, you’ll probably find a collection of experiments, learnings, and a glimpse into how I think.
 
@@ -28,3 +26,10 @@ Hey, I’m Kuladeep Reddy 👋<br><br>I’m someone who enjoys exploring how ide
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Kuladeep-Reddy-C&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
+### 🐍 My GitHub Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kuladeep-Reddy-C/Kuladeep-Reddy-C/output/github-snake-dark.svg" alt="GitHub Snake Dark" />
+</p>
