@@ -1,0 +1,31 @@
+<svg width="100%" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font: bold 50px sans-serif; fill: #e60073; }
+    .snow {
+      fill: white;
+      font: 20px sans-serif;
+      opacity: 0.8;
+    }
+  </style>
+
+  <!-- Your name -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+    Kuladeep Reddy Chappidi
+  </text>
+
+  <!-- Snowflakes -->
+  <text class="snow" x="10%" y="0">❄</text>
+  <animate attributeName="y" from="-20" to="200" dur="6s" repeatCount="indefinite" />
+
+  <text class="snow" x="30%" y="0">❄</text>
+  <animate attributeName="y" from="-20" to="200" dur="8s" repeatCount="indefinite" />
+
+  <text class="snow" x="50%" y="0">❄</text>
+  <animate attributeName="y" from="-20" to="200" dur="10s" repeatCount="indefinite" />
+
+  <text class="snow" x="70%" y="0">❄</text>
+  <animate attributeName="y" from="-20" to="200" dur="12s" repeatCount="indefinite" />
+
+  <text class="snow" x="90%" y="0">❄</text>
+  <animate attributeName="y" from="-20" to="200" dur="9s" repeatCount="indefinite" />
+</svg>
