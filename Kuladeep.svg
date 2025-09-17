@@ -1,31 +1,45 @@
-<svg width="100%" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <style>
-    text { font: bold 50px sans-serif; fill: #e60073; }
-    .snow {
-      fill: white;
-      font: 20px sans-serif;
-      opacity: 0.8;
-    }
+    text { font: bold 45px sans-serif; fill: #e60073; }
+    .snow { fill: white; font: 20px sans-serif; opacity: 0.9; }
   </style>
 
-  <!-- Your name -->
+  <!-- Your Name -->
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
     Kuladeep Reddy Chappidi
   </text>
 
   <!-- Snowflakes -->
-  <text class="snow" x="10%" y="0">❄</text>
-  <animate attributeName="y" from="-20" to="200" dur="6s" repeatCount="indefinite" />
+  <g>
+    <text class="snow">❄<animateMotion dur="8s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="10s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="9s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="11s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="12s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="9s" repeatCount="indefinite"><mpath href="#p6"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="10s" repeatCount="indefinite"><mpath href="#p7"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="13s" repeatCount="indefinite"><mpath href="#p8"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="8s" repeatCount="indefinite"><mpath href="#p9"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="14s" repeatCount="indefinite"><mpath href="#p10"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="11s" repeatCount="indefinite"><mpath href="#p11"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="12s" repeatCount="indefinite"><mpath href="#p12"/></animateMotion></text>
+    <text class="snow">❄<animateMotion dur="9s" repeatCount="indefinite"><mpath href="#p13"/></animateMotion></text>
+  </g>
 
-  <text class="snow" x="30%" y="0">❄</text>
-  <animate attributeName="y" from="-20" to="200" dur="8s" repeatCount="indefinite" />
-
-  <text class="snow" x="50%" y="0">❄</text>
-  <animate attributeName="y" from="-20" to="200" dur="10s" repeatCount="indefinite" />
-
-  <text class="snow" x="70%" y="0">❄</text>
-  <animate attributeName="y" from="-20" to="200" dur="12s" repeatCount="indefinite" />
-
-  <text class="snow" x="90%" y="0">❄</text>
-  <animate attributeName="y" from="-20" to="200" dur="9s" repeatCount="indefinite" />
+  <!-- Wavy paths (leaf-like swing) -->
+  <defs>
+    <path id="p1" d="M50 -20 Q70 20 30 60 T70 140 T50 220" fill="none"/>
+    <path id="p2" d="M120 -20 Q140 30 100 80 T140 160 T120 220" fill="none"/>
+    <path id="p3" d="M200 -20 Q220 40 180 90 T220 160 T200 220" fill="none"/>
+    <path id="p4" d="M280 -20 Q300 30 260 80 T300 150 T280 220" fill="none"/>
+    <path id="p5" d="M360 -20 Q380 40 340 90 T380 160 T360 220" fill="none"/>
+    <path id="p6" d="M440 -20 Q460 30 420 80 T460 150 T440 220" fill="none"/>
+    <path id="p7" d="M520 -20 Q540 40 500 90 T540 160 T520 220" fill="none"/>
+    <path id="p8" d="M600 -20 Q620 30 580 80 T620 150 T600 220" fill="none"/>
+    <path id="p9" d="M680 -20 Q700 40 660 90 T700 160 T680 220" fill="none"/>
+    <path id="p10" d="M740 -20 Q760 30 720 80 T760 150 T740 220" fill="none"/>
+    <path id="p11" d="M180 -40 Q200 20 160 70 T200 140 T180 220" fill="none"/>
+    <path id="p12" d="M400 -40 Q420 30 380 90 T420 160 T400 220" fill="none"/>
+    <path id="p13" d="M620 -40 Q640 20 600 80 T640 150 T620 220" fill="none"/>
+  </defs>
 </svg>
