@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./Kuladeep.svg" alt="Kuladeep Snowfall" width="600">
+</p>
+
+<p align="center">
   <img src="https://media1.tenor.com/m/bEOPpa07_xQAAAAC/ok.gif" width="400">
 </p>
 
